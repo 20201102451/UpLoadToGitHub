@@ -56,10 +56,9 @@
                     <el-menu-item-group>
                         <template slot="title"></template>
                         <el-menu-item index="/report">我的工作报告</el-menu-item>
-                        <el-menu-item index="/report">待审报告</el-menu-item>
-                        <el-menu-item index="/report">审理记录</el-menu-item>
+                        <el-menu-item index="/pendingreport">待审报告</el-menu-item>
                     </el-menu-item-group>
-                </el-submenu>
+                </el-submenu>        
                 <el-submenu index="/attendance">
                     <template slot="title">
                         <i class="el-icon-date"></i>

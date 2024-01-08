@@ -26,8 +26,13 @@ const routes = [
       },{
         path: 'report',
         name: 'Report',
-        component: ()=>import('../views/Report/Report.vue')
+        component: ()=>import('../views/Report/MyReport.vue'),
       },{
+        path: 'pendingreport',
+        name: 'PendingReport',
+        component: ()=>import('../views/Report/PendingReport.vue')
+      },
+      {
         path: 'attendance',
         name: 'Attendance',
         component: ()=>import('../views/Attendance/Attendance.vue')
