@@ -36,7 +36,28 @@ const routes = [
         path: 'attendance',
         name: 'Attendance',
         component: ()=>import('../views/Attendance/Attendance.vue')
-      },{
+      },
+      {
+        path: 'absentList',
+        name: 'absentList',
+        component: ()=>import('../views/Attendance/AbsentList.vue')
+      },
+      {
+        path: 'compareAttendance',
+        name: 'compareAttendance',
+        component: ()=>import('../views/Attendance/CompareAttendance.vue')
+      },
+      {
+        path: 'employeeAttendance',
+        name: 'employeeAttendance',
+        component: ()=>import('../views/Attendance/EmployeeAttendance.vue')
+      },
+      {
+        path: 'departmentAttendance',
+        name: 'departmentAttendance',
+        component: ()=>import('../views/Attendance/DepartmentAttendance.vue')
+      },
+      {
         path: 'examineAndApprove',
         name: 'ExamineAndApprove',
         component: ()=>import('../views/ExamineAndApprove/ExamineAndApprove.vue'),

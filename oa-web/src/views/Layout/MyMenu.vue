@@ -66,12 +66,12 @@
                     </template>
                     <el-menu-item-group>
                         <template slot="title"></template>
-                        <el-menu-item index="/attendance">部门考勤对比</el-menu-item>
-                        <el-menu-item index="/attendance">今日缺勤</el-menu-item>
-                        <el-submenu index="/attendance">
+                        <el-menu-item index="/compareAttendance">部门考勤对比</el-menu-item>
+                        <el-menu-item index="/absentList">今日缺勤</el-menu-item>
+                        <el-submenu index="1-1">
                             <template slot="title">本月考勤</template>
-                            <el-menu-item index="/attendance">员工</el-menu-item>
-                            <el-menu-item index="/attendance">部门</el-menu-item>
+                            <el-menu-item index="/employeeAttendance">员工</el-menu-item>
+                            <el-menu-item index="/departmentAttendance">部门</el-menu-item>
                         </el-submenu>
                     </el-menu-item-group>
                 </el-submenu>
