@@ -1,0 +1,396 @@
+[
+    {
+        "id": "10001",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10002",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10003",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10004",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10005",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10006",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10007",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10008",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10009",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10010",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10011",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10012",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10013",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10014",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },{
+        "id": "10015",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 0,
+                "exempt": 2
+            },
+            "second": {
+                "normal": 4,
+                "absences": 1,
+                "exempt": 2
+            },
+            "third": {
+                "normal": 3,
+                "absences": 2,
+                "exempt": 2
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    },
+    {
+        "id": "10016",
+        "weekList": {
+            "first": {
+                "normal": 5,
+                "absences": 2,
+                "exempt": 0
+            },
+            "second": {
+                "normal": 4,
+                "absences": 3,
+                "exempt": 0
+            },
+            "third": {
+                "normal": 0,
+                "absences": 0,
+                "exempt": 7
+            },
+            "fourth": {
+                "normal": 4,
+                "absences": 2,
+                "exempt": 1
+            }
+        }
+    }
+]
