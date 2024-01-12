@@ -84,7 +84,6 @@
                         <template slot="title"></template>
                         <el-menu-item index="/department">人员管理</el-menu-item>
                         <el-menu-item index="/department">公告管理</el-menu-item>
-                        <el-menu-item index="/department">工作报告管理</el-menu-item>
                     </el-menu-item-group>
                 </el-submenu>
                 <el-menu-item index="/admin">

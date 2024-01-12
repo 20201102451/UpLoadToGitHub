@@ -1,0 +1,50 @@
+[
+    {
+        "deptId": "001",
+        "deptName": "语文组",
+        "leader": "王一一",
+        "contact": "18647377201",
+        "number": 15,
+        "attendanceRate":0.80
+    },
+    {
+        "deptId": "002",
+        "deptName": "数学组",
+        "leader": "王二二",
+        "contact": "18647377201",
+        "number": 20,
+        "attendanceRate":0.85
+    },
+    {
+        "deptId": "003",
+        "deptName": "物理组",
+        "leader": "王三三",
+        "contact": "18647377201",
+        "number": 8,
+        "attendanceRate":0.88
+    },
+    {
+        "deptId": "004",
+        "deptName": "英语组",
+        "leader": "王四四",
+        "contact": "18647377201",
+        "number": 7,
+        "attendanceRate":0.89
+    },
+    {
+        "deptId": "005",
+        "deptName": "化学组",
+        "leader": "王五五",
+        "contact": "18647377201",
+        "number": 4,
+        "attendanceRate":0.78
+    },
+    {
+        "deptId": "006",
+        "deptName": "历史组",
+        "leader": "王六六",
+        "contact": "18647377201",
+        "number": 18,
+        "attendanceRate":0.50
+    }
+]
