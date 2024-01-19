@@ -11,12 +11,12 @@
                         <span>首页</span>
                     </template>
                 </el-menu-item>
-                <el-menu-item index="/friends">
+                <!-- <el-menu-item index="/friends">
                     <i class="el-icon-chat-line-round"></i>
                     <template slot="title">
                         <span>朋友圈</span>
                     </template>
-                </el-menu-item>
+                </el-menu-item> -->
                 <el-menu-item index="/meeting">
                     <i class="el-icon-mic"></i>
                     <template slot="title">
@@ -82,7 +82,7 @@
                     </template>
                     <el-menu-item-group>
                         <template slot="title"></template>
-                        <el-menu-item index="/department">人员管理</el-menu-item>
+                        <el-menu-item index="/empManage">人员管理</el-menu-item>
                         <el-menu-item index="/department">公告管理</el-menu-item>
                     </el-menu-item-group>
                 </el-submenu>
