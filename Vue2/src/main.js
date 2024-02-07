@@ -15,6 +15,9 @@ import "@/assets/iconfont/iconfont.css"
 import Ellipsis from '@/components/common/Ellipsis'
 import WDialog from '@/components/common/WDialog'
 import Tip from '@/components/common/Tip'
+import 'echarts';
+import ECharts  from 'vue-echarts';
+Vue.component('e-charts',ECharts);
 
 Vue.use(ElementUI);
 Vue.use(Ellipsis);

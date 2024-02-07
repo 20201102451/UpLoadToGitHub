@@ -13,7 +13,18 @@ const router = new Router({
   routes: [
     {
       path: "/",
-      redirect: "/index",
+      // redirect: "/index",
+      redirect: "/home",
+      component: () => import("../views/Layout/Layout.vue"),
+      children: [//只有将内容放在这里，MyMenu才能正常显示
+        {
+          path: '/home',
+          name: 'Home',
+          component: () => import('../views/Home/Home.vue'),
+          meta: { title: "首页", viewport: viewport },
+
+        },
+      ]
     },
     {
       path: "/index",
@@ -96,6 +107,100 @@ const router = new Router({
         }
       ]*/
     },
+    // {
+    //   path: '/home',
+    //   name: 'Home',
+    //   component: () => import('../views/Home/Home.vue')
+    // }, 
+    {
+      path: 'meeting',
+      name: 'Meeting',
+      component: () => import('../views/Meeting/Meeting.vue')
+    },
+    {
+      path: '/report',
+      name: 'Report',
+      component: () => import('../views/Report/MyReport.vue'),
+    },
+    {
+      path: '/pendingreport',
+      name: 'PendingReport',
+      component: () => import('../views/Report/PendingReport.vue')
+    },
+    {
+      path: '/attendance',
+      name: 'Attendance',
+      component: () => import('../views/Attendance/Attendance.vue')
+    },
+    {
+      path: '/absentList',
+      name: 'absentList',
+      component: () => import('../views/Attendance/AbsentList.vue')
+    },
+    {
+      path: '/compareAttendance',
+      name: 'compareAttendance',
+      component: () => import('../views/Attendance/CompareAttendance.vue')
+    },
+    {
+      path: '/employeeAttendance',
+      name: 'employeeAttendance',
+      component: () => import('../views/Attendance/EmployeeAttendance.vue')
+    },
+    {
+      path: '/departmentAttendance',
+      name: 'departmentAttendance',
+      component: () => import('../views/Attendance/DepartmentAttendance.vue')
+    },
+    {
+      path: '/examineAndApprove',
+      name: 'ExamineAndApprove',
+      component: () => import('../views/ExamineAndApprove/ExamineAndApprove.vue'),
+      children: [
+        {
+          path: '/apply',
+          name: 'Apply',
+          component: () => import('../views/ExamineAndApprove/Apply.vue')
+        }, {
+          path: '/applicationRecord',
+          name: 'ApplicationRecord',
+          component: () => import('../views/ExamineAndApprove/ApplicationRecord.vue')
+        }, {
+          path: '/pending',
+          name: 'Pending',
+          component: () => import('../views/ExamineAndApprove/Pending.vue')
+        }, {
+          path: '/pendingRecord',
+          name: 'PendingRecord',
+          component: () => import('../views/ExamineAndApprove/PendingRecord.vue')
+        }
+      ]
+    },
+    {
+      path: '/department',
+      name: 'Department',
+      component: () => import('../views/Department/Department.vue')
+    },
+    {
+      path: '/empManage',
+      name: 'empManage',
+      component: () => import('../views/Department/EmpManage.vue')
+    },
+    {
+      path: '/auxiliary',
+      name: 'Auxiliary',
+      component: () => import('../views/Auxiliary/Auxiliary.vue')
+    },
+    {
+      path: '/documentManage',
+      name: 'DocumentManage',
+      component: () => import('../views/DocumentManage/DocumentManage.vue')
+    },
+    // {
+    //   path: 'admin',
+    //   name: 'Admin',
+    //   component: () => import('../views/Admin/Admin.vue')
+    // },
   ],
 });
 
